@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+h3 {
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+  font-style: Bold;
+  text-align: left;
+  line-height: normal;
+  text-decoration: none;
+  font-size: 36px;
+}
+p {
+  font-family: "Poppins", sans-serif;
+  font-style: Bold;
+}
+.website-body {
+  background-image: linear-gradient(
+    to bottom,
+    #e45c36,
+    #c74847,
+    #a33c4f,
+    #7c354e,
+    #552e43
+  );
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main {
+  position: relative;
+}
+.cardBox {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 20px;
+}
